@@ -1,0 +1,55 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    background-color: #cee2ed;
+}
+.main{
+    margin-left: 0.5rem;
+    background-color: #cee2ed;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    font-size: 3rem;
+    font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input-element{
+    margin-right: 1rem;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#find-button{
+    margin-top: 1rem;
+}
+.responses{
+    background-color: #cee2ed;
+}
+button{
+    border-radius:  0.5rem ;
+    border: 0.1rem solid #209be3;
+    position: absolute;
+    right: 60rem;
+    cursor: pointer;
+}
+#find-button{
+    position: inherit;
+}

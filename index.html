@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Navigator : Get information about all major universities around the world</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js" integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">CampusNavigator</div>
+            
+        </div>
+    </header>
+    <div class="main">
+        <h1>Campus Navigator : Navigating Your Path to the Perfect Campus</h1>
+        <h3>About CampusNavigator</h3>
+        <p>Welcome to CampusNavigator, your ultimate guide to discovering universities around the globe. Designed to simplify the search for higher education institutions, CampusNavigator provides a comprehensive and user-friendly platform where students, parents, and educators can find detailed information about universities in various countries. Whether you’re looking for specific programs, renowned campuses, or institutions that align with your academic and personal preferences, CampusNavigator makes it easy to filter, compare, and explore a vast database of universities. Start your journey towards academic excellence with CampusNavigator, and find the perfect university that matches your aspirations and goals.</p>
+
+        <h3>Find your campus now:</h3>
+        <div class="input">
+            <label for="country">Country  </label>
+            <input type="text" placeholder="Enter country name" id="country" class="input-element">
+            <label for="state">State  </label>
+            <input type="text" placeholder="Enter state" id="state" class="input-element">
+            <label for="name">Keywords  </label>
+            <input type="text" placeholder="Add a keyword" id="name" class="input-element">
+            
+            
+            
+        </div>
+    
+    <div class="button-container">
+        <button id="find-button">Find</button>
+    </div>
+    
+   <div class="responses"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
